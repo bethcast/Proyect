@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.checkbox{
+    display:flex;
+    flex-direction:row;
+    width: 500px;
+}
+
+
+.container > button{
+background-color: cadetblue;
+transition: 0.3s;
+}
+
+.container > button:hover{
+transform: scale (1.1);
+font-size: 20px;
+}
